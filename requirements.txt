@@ -1,1 +1,4 @@
-requirements.txt
+aiogram>=3.0.0
+yt-dlp
+fastapi
+uvicorn
