@@ -9,7 +9,7 @@ import yt_dlp
 from fastapi import FastAPI
 import uvicorn
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "TOKEN_SHU_YERGA_YOZILADI")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8969955147:AAE_qR8e_Of6jSI4UC07-6-4LSM70gquUJ4")
 
 bot = Bot(token=TELEGRAM_TOKEN)
 dp = Dispatcher()
